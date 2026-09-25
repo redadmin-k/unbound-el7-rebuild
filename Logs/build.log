@@ -1,21 +1,21 @@
 Mock Version: 6.8
 Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off']
-Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '6f27894c208f4143b21e58904e2e8c01', '-D', '/var/lib/mock/centos-7-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/unbound.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '5d13ad27e827473bb4858cd38d2d6970', '-D', '/var/lib/mock/centos-7-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/unbound.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
 Building target platforms: x86_64
 Building for target x86_64
-Wrote: /builddir/build/SRPMS/unbound-1.16.2-5.14.el7.src.rpm
+Wrote: /builddir/build/SRPMS/unbound-1.16.2-5.14.el7.2.src.rpm
 Child return code was: 0
 Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off']
-Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '1eea7824efe445649c4a9d1ddce3eeae', '-D', '/var/lib/mock/centos-7-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/unbound.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '325dfbba380c4da7aa5eae0c1a599c6e', '-D', '/var/lib/mock/centos-7-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/unbound.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
 Building target platforms: x86_64
 Building for target x86_64
-Wrote: /builddir/build/SRPMS/unbound-1.16.2-5.14.el7.src.rpm
+Wrote: /builddir/build/SRPMS/unbound-1.16.2-5.14.el7.2.src.rpm
 Child return code was: 0
 Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off']
-Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'fef864bd74654f7c8ba42ce3a99bb550', '-D', '/var/lib/mock/centos-7-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/unbound.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '4f5e4e0e6e254c4dbccf4b03c34f0b09', '-D', '/var/lib/mock/centos-7-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/unbound.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
 Building target platforms: x86_64
 Building for target x86_64
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.QCv4II
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.wlcHYA
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -28,9 +28,9 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.QCv4II
 + '[' 0 -ne 0 ']'
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + pushd unbound-1.16.2
-+ echo 'Patch #1 (unbound-1.15-soversion2-compat.patch):'
 ~/build/BUILD/unbound-1.16.2/unbound-1.16.2 ~/build/BUILD/unbound-1.16.2
 Patch #1 (unbound-1.15-soversion2-compat.patch):
++ echo 'Patch #1 (unbound-1.15-soversion2-compat.patch):'
 + /usr/bin/cat /builddir/build/SOURCES/unbound-1.15-soversion2-compat.patch
 + /usr/bin/patch -p2 -b --suffix .solib2-compat --fuzz=0
 patching file configure.ac
@@ -114,8 +114,8 @@ Patch #7 (unbound-1.20-unbound-anchor-key-38696.patch):
 + /usr/bin/cat /builddir/build/SOURCES/unbound-1.20-unbound-anchor-key-38696.patch
 + /usr/bin/patch -p2 -b --suffix .dnssec-ta-2024 --fuzz=0
 patching file smallapp/unbound-anchor.c
-+ echo 'Patch #8 (unbound-1.25.1-CVE-2026-42944.patch):'
 Patch #8 (unbound-1.25.1-CVE-2026-42944.patch):
++ echo 'Patch #8 (unbound-1.25.1-CVE-2026-42944.patch):'
 + /usr/bin/cat /builddir/build/SOURCES/unbound-1.25.1-CVE-2026-42944.patch
 + /usr/bin/patch -p2 -b --suffix .CVE-2026-42944 --fuzz=0
 patching file util/data/msgparse.c
@@ -168,16 +168,41 @@ Patch #16 (unbound-1.25.2-CVE-2026-44690-test.patch):
 + /usr/bin/cat /builddir/build/SOURCES/unbound-1.25.2-CVE-2026-44690-test.patch
 + /usr/bin/patch -p1 -b --suffix .CVE-2026-44690-test --fuzz=0
 patching file testdata/rrsig_agr_wild.rpl
+Patch #17 (unbound-1.25.2-CVE-2026-50252.patch):
++ echo 'Patch #17 (unbound-1.25.2-CVE-2026-50252.patch):'
++ /usr/bin/cat /builddir/build/SOURCES/unbound-1.25.2-CVE-2026-50252.patch
++ /usr/bin/patch -p1 -b --suffix .CVE-2026-50252 --fuzz=0
+patching file daemon/daemon.c
+patching file daemon/daemon.h
+patching file daemon/worker.c
+patching file daemon/worker.h
+patching file libunbound/libworker.c
+patching file libunbound/libworker.h
+patching file services/outside_network.c
+patching file services/outside_network.h
+patching file testcode/fake_event.c
+patching file testcode/unittcpreuse.c
+Patch #18 (unbound-1.26.0-CVE-2026-50252-fix1.patch):
++ echo 'Patch #18 (unbound-1.26.0-CVE-2026-50252-fix1.patch):'
++ /usr/bin/cat /builddir/build/SOURCES/unbound-1.26.0-CVE-2026-50252-fix1.patch
++ /usr/bin/patch -p2 -b --suffix .CVE-2026-50252-fix1 --fuzz=0
+patching file services/authzone.c
+patching file services/outside_network.c
+Patch #19 (unbound-1.25.2-CVE-2026-44690-fix1.patch):
++ echo 'Patch #19 (unbound-1.25.2-CVE-2026-44690-fix1.patch):'
++ /usr/bin/cat /builddir/build/SOURCES/unbound-1.25.2-CVE-2026-44690-fix1.patch
++ /usr/bin/patch -p2 -b --suffix .CVE-2026-44690-fix1 --fuzz=0
+patching file services/cache/rrset.c
 + cp -pr doc pythonmod libunbound ../
 + popd
 + exit 0
 ~/build/BUILD/unbound-1.16.2
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.lAflzx
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.t9aDS7
 + umask 022
 + cd /builddir/build/BUILD
-~/build/BUILD/unbound-1.16.2/unbound-1.16.2 ~/build/BUILD/unbound-1.16.2
 + cd unbound-1.16.2
 + pushd unbound-1.16.2
+~/build/BUILD/unbound-1.16.2/unbound-1.16.2 ~/build/BUILD/unbound-1.16.2
 + autoreconf -fiv
 autoreconf: Entering directory `.'
 autoreconf: configure.ac: not using Gettext
@@ -593,61 +618,57 @@ configure: WARNING: unrecognized options: --disable-dependency-tracking
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o infra.lo -c services/cache/infra.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o rrset.lo -c services/cache/rrset.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o dname.lo -c util/data/dname.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/cache/dns.c  -fPIC -DPIC -o .libs/dns.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/cache/infra.c  -fPIC -DPIC -o .libs/infra.o
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/cache/rrset.c  -fPIC -DPIC -o .libs/rrset.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/data/dname.c  -fPIC -DPIC -o .libs/dname.o
-services/cache/rrset.c: In function 'dname_subdomain_rrsig_signers':
-services/cache/rrset.c:270:3: warning: implicit declaration of function 'dname_subdomain_c' [-Wimplicit-function-declaration]
-   if(!dname_subdomain_c(dname, sname))
-   ^
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/cache/rrset.c  -fPIC -DPIC -o .libs/rrset.o
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/cache/dns.c  -fPIC -DPIC -o .libs/dns.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o msgencode.lo -c util/data/msgencode.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/data/msgencode.c  -fPIC -DPIC -o .libs/msgencode.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o as112.lo -c util/as112.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/as112.c  -fPIC -DPIC -o .libs/as112.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o msgparse.lo -c util/data/msgparse.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o msgreply.lo -c util/data/msgreply.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/as112.c  -fPIC -DPIC -o .libs/as112.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/data/msgparse.c  -fPIC -DPIC -o .libs/msgparse.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o msgreply.lo -c util/data/msgreply.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o packed_rrset.lo -c util/data/packed_rrset.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/data/msgreply.c  -fPIC -DPIC -o .libs/msgreply.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/data/packed_rrset.c  -fPIC -DPIC -o .libs/packed_rrset.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iterator.lo -c iterator/iterator.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iterator.c  -fPIC -DPIC -o .libs/iterator.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_delegpt.lo -c iterator/iter_delegpt.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_delegpt.c  -fPIC -DPIC -o .libs/iter_delegpt.o
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iterator.c  -fPIC -DPIC -o .libs/iterator.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_donotq.lo -c iterator/iter_donotq.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_donotq.c  -fPIC -DPIC -o .libs/iter_donotq.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_fwd.lo -c iterator/iter_fwd.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_fwd.c  -fPIC -DPIC -o .libs/iter_fwd.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_hints.lo -c iterator/iter_hints.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_hints.c  -fPIC -DPIC -o .libs/iter_hints.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_priv.lo -c iterator/iter_priv.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_fwd.c  -fPIC -DPIC -o .libs/iter_fwd.o
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_hints.c  -fPIC -DPIC -o .libs/iter_hints.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_priv.c  -fPIC -DPIC -o .libs/iter_priv.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_resptype.lo -c iterator/iter_resptype.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_resptype.c  -fPIC -DPIC -o .libs/iter_resptype.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_scrub.lo -c iterator/iter_scrub.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_scrub.c  -fPIC -DPIC -o .libs/iter_scrub.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o iter_utils.lo -c iterator/iter_utils.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_utils.c  -fPIC -DPIC -o .libs/iter_utils.o
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c iterator/iter_scrub.c  -fPIC -DPIC -o .libs/iter_scrub.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o localzone.lo -c services/localzone.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/localzone.c  -fPIC -DPIC -o .libs/localzone.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o mesh.lo -c services/mesh.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/mesh.c  -fPIC -DPIC -o .libs/mesh.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o modstack.lo -c services/modstack.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o view.lo -c services/view.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/modstack.c  -fPIC -DPIC -o .libs/modstack.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o view.lo -c services/view.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/view.c  -fPIC -DPIC -o .libs/view.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o outbound_list.lo -c services/outbound_list.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o alloc.lo -c util/alloc.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/outbound_list.c  -fPIC -DPIC -o .libs/outbound_list.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o alloc.lo -c util/alloc.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/alloc.c  -fPIC -DPIC -o .libs/alloc.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o config_file.lo -c util/config_file.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o configlexer.lo -c util/configlexer.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/config_file.c  -fPIC -DPIC -o .libs/config_file.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/configlexer.c  -fPIC -DPIC -o .libs/configlexer.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o configparser.lo -c util/configparser.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/configparser.c  -fPIC -DPIC -o .libs/configparser.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o fptr_wlist.lo -c util/fptr_wlist.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/configparser.c  -fPIC -DPIC -o .libs/configparser.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/fptr_wlist.c  -fPIC -DPIC -o .libs/fptr_wlist.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o edns.lo -c util/edns.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/edns.c  -fPIC -DPIC -o .libs/edns.o
@@ -668,8 +689,8 @@ libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o regional.lo -c util/regional.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/regional.c  -fPIC -DPIC -o .libs/regional.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o rtt.lo -c util/rtt.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o dnstree.lo -c util/storage/dnstree.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/rtt.c  -fPIC -DPIC -o .libs/rtt.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o dnstree.lo -c util/storage/dnstree.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/storage/dnstree.c  -fPIC -DPIC -o .libs/dnstree.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o lookup3.lo -c util/storage/lookup3.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/storage/lookup3.c  -fPIC -DPIC -o .libs/lookup3.o
@@ -684,24 +705,24 @@ libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o tube.lo -c util/tube.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/tube.c  -fPIC -DPIC -o .libs/tube.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o winsock_event.lo -c util/winsock_event.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/winsock_event.c  -fPIC -DPIC -o .libs/winsock_event.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o autotrust.lo -c validator/autotrust.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/winsock_event.c  -fPIC -DPIC -o .libs/winsock_event.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/autotrust.c  -fPIC -DPIC -o .libs/autotrust.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_anchor.lo -c validator/val_anchor.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_anchor.c  -fPIC -DPIC -o .libs/val_anchor.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o rpz.lo -c services/rpz.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o validator.lo -c validator/validator.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_anchor.c  -fPIC -DPIC -o .libs/val_anchor.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/rpz.c  -fPIC -DPIC -o .libs/rpz.o
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_kcache.lo -c validator/val_kcache.c
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o validator.lo -c validator/validator.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/validator.c  -fPIC -DPIC -o .libs/validator.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_kcache.lo -c validator/val_kcache.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_kcache.c  -fPIC -DPIC -o .libs/val_kcache.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_kentry.lo -c validator/val_kentry.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_kentry.c  -fPIC -DPIC -o .libs/val_kentry.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_neg.lo -c validator/val_neg.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_neg.c  -fPIC -DPIC -o .libs/val_neg.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_nsec3.lo -c validator/val_nsec3.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_nsec3.c  -fPIC -DPIC -o .libs/val_nsec3.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_nsec.lo -c validator/val_nsec.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_nsec3.c  -fPIC -DPIC -o .libs/val_nsec3.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_nsec.c  -fPIC -DPIC -o .libs/val_nsec.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_secalgo.lo -c validator/val_secalgo.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_secalgo.c  -fPIC -DPIC -o .libs/val_secalgo.o
@@ -709,8 +730,8 @@ libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_sigcrypt.c  -fPIC -DPIC -o .libs/val_sigcrypt.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o val_utils.lo -c validator/val_utils.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o dns64.lo -c dns64/dns64.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_utils.c  -fPIC -DPIC -o .libs/val_utils.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c dns64/dns64.c  -fPIC -DPIC -o .libs/dns64.o
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c validator/val_utils.c  -fPIC -DPIC -o .libs/val_utils.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o authzone.lo -c services/authzone.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c services/authzone.c  -fPIC -DPIC -o .libs/authzone.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o edns-subnet.lo -c edns-subnet/edns-subnet.c
@@ -718,12 +739,12 @@ libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o subnetmod.lo -c edns-subnet/subnetmod.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c edns-subnet/subnetmod.c  -fPIC -DPIC -o .libs/subnetmod.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o addrtree.lo -c edns-subnet/addrtree.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c edns-subnet/addrtree.c  -fPIC -DPIC -o .libs/addrtree.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o subnet-whitelist.lo -c edns-subnet/subnet-whitelist.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c edns-subnet/addrtree.c  -fPIC -DPIC -o .libs/addrtree.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c edns-subnet/subnet-whitelist.c  -fPIC -DPIC -o .libs/subnet-whitelist.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o ipsecmod.lo -c ipsecmod/ipsecmod.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c ipsecmod/ipsecmod.c  -fPIC -DPIC -o .libs/ipsecmod.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o ipsecmod-whitelist.lo -c ipsecmod/ipsecmod-whitelist.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c ipsecmod/ipsecmod.c  -fPIC -DPIC -o .libs/ipsecmod.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o respip.lo -c respip/respip.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c ipsecmod/ipsecmod-whitelist.c  -fPIC -DPIC -o .libs/ipsecmod-whitelist.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c respip/respip.c  -fPIC -DPIC -o .libs/respip.o
@@ -738,16 +759,16 @@ libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o acl_list.lo -c daemon/acl_list.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/acl_list.c  -fPIC -DPIC -o .libs/acl_list.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o cachedump.lo -c daemon/cachedump.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o daemon.lo -c daemon/daemon.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/cachedump.c  -fPIC -DPIC -o .libs/cachedump.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o daemon.lo -c daemon/daemon.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/daemon.c  -fPIC -DPIC -o .libs/daemon.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o shm_main.lo -c util/shm_side/shm_main.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/shm_side/shm_main.c  -fPIC -DPIC -o .libs/shm_main.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o remote.lo -c daemon/remote.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/remote.c  -fPIC -DPIC -o .libs/remote.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o stats.lo -c daemon/stats.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o unbound.lo -c daemon/unbound.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/stats.c  -fPIC -DPIC -o .libs/stats.o
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/remote.c  -fPIC -DPIC -o .libs/remote.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/unbound.c  -fPIC -DPIC -o .libs/unbound.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o worker.lo -c daemon/worker.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c daemon/worker.c  -fPIC -DPIC -o .libs/worker.o
@@ -756,53 +777,53 @@ libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o sbuffer.lo -c sldns/sbuffer.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c sldns/sbuffer.c  -fPIC -DPIC -o .libs/sbuffer.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o wire2str.lo -c sldns/wire2str.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o parse.lo -c sldns/parse.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c sldns/wire2str.c  -fPIC -DPIC -o .libs/wire2str.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o parse.lo -c sldns/parse.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c sldns/parse.c  -fPIC -DPIC -o .libs/parse.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o parseutil.lo -c sldns/parseutil.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c sldns/parseutil.c  -fPIC -DPIC -o .libs/parseutil.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o rrdef.lo -c sldns/rrdef.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o str2wire.lo -c sldns/str2wire.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c sldns/rrdef.c  -fPIC -DPIC -o .libs/rrdef.o
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c sldns/str2wire.c  -fPIC -DPIC -o .libs/str2wire.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o str2wire.lo -c sldns/str2wire.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o strlcat.lo -c compat/strlcat.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c sldns/str2wire.c  -fPIC -DPIC -o .libs/str2wire.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/strlcat.c  -fPIC -DPIC -o .libs/strlcat.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o strlcpy.lo -c compat/strlcpy.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/strlcpy.c  -fPIC -DPIC -o .libs/strlcpy.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o explicit_bzero.lo -c compat/explicit_bzero.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/strlcpy.c  -fPIC -DPIC -o .libs/strlcpy.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/explicit_bzero.c  -fPIC -DPIC -o .libs/explicit_bzero.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o reallocarray.lo -c compat/reallocarray.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/reallocarray.c  -fPIC -DPIC -o .libs/reallocarray.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o arc4random.lo -c compat/arc4random.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o arc4random_uniform.lo -c compat/arc4random_uniform.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/arc4random.c  -fPIC -DPIC -o .libs/arc4random.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/arc4random_uniform.c  -fPIC -DPIC -o .libs/arc4random_uniform.o
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/arc4random.c  -fPIC -DPIC -o .libs/arc4random.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o arc4_lock.lo -c compat/arc4_lock.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/arc4_lock.c  -fPIC -DPIC -o .libs/arc4_lock.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o getentropy_linux.lo -c compat/getentropy_linux.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/getentropy_linux.c  -fPIC -DPIC -o .libs/getentropy_linux.o
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c compat/arc4_lock.c  -fPIC -DPIC -o .libs/arc4_lock.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o context.lo -c libunbound/context.c
-./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o libunbound.lo -c libunbound/libunbound.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c libunbound/context.c  -fPIC -DPIC -o .libs/context.o
+./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o libunbound.lo -c libunbound/libunbound.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c libunbound/libunbound.c  -fPIC -DPIC -o .libs/libunbound.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o libworker.lo -c libunbound/libworker.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c libunbound/libworker.c  -fPIC -DPIC -o .libs/libworker.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o ub_event_pluggable.lo -c util/ub_event_pluggable.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c util/ub_event_pluggable.c  -fPIC -DPIC -o .libs/ub_event_pluggable.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o unbound-checkconf.lo -c smallapp/unbound-checkconf.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c smallapp/unbound-checkconf.c  -fPIC -DPIC -o .libs/unbound-checkconf.o
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o worker_cb.lo -c smallapp/worker_cb.c
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c smallapp/unbound-checkconf.c  -fPIC -DPIC -o .libs/unbound-checkconf.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c smallapp/worker_cb.c  -fPIC -DPIC -o .libs/worker_cb.o
 sed -e 's/@''UNBOUND_VERSION_MAJOR@/1/' -e 's/@''UNBOUND_VERSION_MINOR@/16/' -e 's/@''UNBOUND_VERSION_MICRO@/2/' < ./libunbound/unbound.h > unbound.h
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o unbound-host.lo -c smallapp/unbound-host.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o unbound-control.lo -c smallapp/unbound-control.c
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o unbound-anchor.lo -c smallapp/unbound-anchor.c
-libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c smallapp/unbound-control.c  -fPIC -DPIC -o .libs/unbound-control.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c smallapp/unbound-host.c  -fPIC -DPIC -o .libs/unbound-host.o
+libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c smallapp/unbound-control.c  -fPIC -DPIC -o .libs/unbound-control.o
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c smallapp/unbound-anchor.c  -fPIC -DPIC -o .libs/unbound-anchor.o
 cp smallapp/unbound-control-setup.sh unbound-control-setup
-chmod +x unbound-control-setup
 ./libtool --tag=CC --mode=link gcc  -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -version-info 9:18:7 -no-undefined -export-symbols ./libunbound/ubsyms.def -o libunbound.la context.lo libunbound.lo libworker.lo ub_event_pluggable.lo dns.lo infra.lo rrset.lo dname.lo msgencode.lo as112.lo msgparse.lo msgreply.lo packed_rrset.lo iterator.lo iter_delegpt.lo iter_donotq.lo iter_fwd.lo iter_hints.lo iter_priv.lo iter_resptype.lo iter_scrub.lo iter_utils.lo localzone.lo mesh.lo modstack.lo view.lo outbound_list.lo alloc.lo config_file.lo configlexer.lo configparser.lo fptr_wlist.lo edns.lo locks.lo log.lo mini_event.lo module.lo net_help.lo random.lo rbtree.lo regional.lo rtt.lo dnstree.lo lookup3.lo lruhash.lo slabhash.lo tcp_conn_limit.lo timehist.lo tube.lo winsock_event.lo autotrust.lo val_anchor.lo rpz.lo validator.lo val_kcache.lo val_kentry.lo val_neg.lo val_nsec3.lo val_nsec.lo val_secalgo.lo val_sigcrypt.lo val_utils.lo dns64.lo  authzone.lo edns-subnet.lo subnetmod.lo addrtree.lo subnet-whitelist.lo     ipsecmod.lo ipsecmod-whitelist.lo   respip.lo netevent.lo listen_dnsport.lo outside_network.lo keyraw.lo sbuffer.lo wire2str.lo parse.lo parseutil.lo rrdef.lo str2wire.lo strlcat.lo strlcpy.lo explicit_bzero.lo reallocarray.lo arc4random.lo arc4random_uniform.lo arc4_lock.lo getentropy_linux.lo -rpath /usr/lib64 -lssl -levent  -lcrypto
+chmod +x unbound-control-setup
 libtool: link: echo "{ global:" > .libs/libunbound.ver
 libtool: link:  cat ./libunbound/ubsyms.def | sed -e "s/\(.*\)/\1;/" >> .libs/libunbound.ver
 libtool: link:  echo "local: *; };" >> .libs/libunbound.ver
@@ -813,42 +834,42 @@ libtool: link: ( cd ".libs" && rm -f "libunbound.la" && ln -s "../libunbound.la"
 ./libtool --tag=CC --mode=link gcc   -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound acl_list.lo cachedump.lo daemon.lo shm_main.lo remote.lo stats.lo unbound.lo worker.lo  dns.lo infra.lo rrset.lo dname.lo msgencode.lo as112.lo msgparse.lo msgreply.lo packed_rrset.lo iterator.lo iter_delegpt.lo iter_donotq.lo iter_fwd.lo iter_hints.lo iter_priv.lo iter_resptype.lo iter_scrub.lo iter_utils.lo localzone.lo mesh.lo modstack.lo view.lo outbound_list.lo alloc.lo config_file.lo configlexer.lo configparser.lo fptr_wlist.lo edns.lo locks.lo log.lo mini_event.lo module.lo net_help.lo random.lo rbtree.lo regional.lo rtt.lo dnstree.lo lookup3.lo lruhash.lo slabhash.lo tcp_conn_limit.lo timehist.lo tube.lo winsock_event.lo autotrust.lo val_anchor.lo rpz.lo validator.lo val_kcache.lo val_kentry.lo val_neg.lo val_nsec3.lo val_nsec.lo val_secalgo.lo val_sigcrypt.lo val_utils.lo dns64.lo  authzone.lo edns-subnet.lo subnetmod.lo addrtree.lo subnet-whitelist.lo     ipsecmod.lo ipsecmod-whitelist.lo   respip.lo netevent.lo listen_dnsport.lo outside_network.lo ub_event.lo keyraw.lo sbuffer.lo wire2str.lo parse.lo parseutil.lo rrdef.lo str2wire.lo strlcat.lo strlcpy.lo explicit_bzero.lo reallocarray.lo arc4random.lo arc4random_uniform.lo arc4_lock.lo getentropy_linux.lo   -lssl -levent  -lcrypto 
 ./libtool --tag=CC --mode=link gcc   -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-checkconf unbound-checkconf.lo worker_cb.lo dns.lo infra.lo rrset.lo dname.lo msgencode.lo as112.lo msgparse.lo msgreply.lo packed_rrset.lo iterator.lo iter_delegpt.lo iter_donotq.lo iter_fwd.lo iter_hints.lo iter_priv.lo iter_resptype.lo iter_scrub.lo iter_utils.lo localzone.lo mesh.lo modstack.lo view.lo outbound_list.lo alloc.lo config_file.lo configlexer.lo configparser.lo fptr_wlist.lo edns.lo locks.lo log.lo mini_event.lo module.lo net_help.lo random.lo rbtree.lo regional.lo rtt.lo dnstree.lo lookup3.lo lruhash.lo slabhash.lo tcp_conn_limit.lo timehist.lo tube.lo winsock_event.lo autotrust.lo val_anchor.lo rpz.lo validator.lo val_kcache.lo val_kentry.lo val_neg.lo val_nsec3.lo val_nsec.lo val_secalgo.lo val_sigcrypt.lo val_utils.lo dns64.lo  authzone.lo edns-subnet.lo subnetmod.lo addrtree.lo subnet-whitelist.lo     ipsecmod.lo ipsecmod-whitelist.lo   respip.lo netevent.lo listen_dnsport.lo outside_network.lo ub_event.lo keyraw.lo sbuffer.lo wire2str.lo parse.lo parseutil.lo rrdef.lo str2wire.lo strlcat.lo strlcpy.lo explicit_bzero.lo reallocarray.lo arc4random.lo arc4random_uniform.lo arc4_lock.lo getentropy_linux.lo   -lssl -levent  -lcrypto
 ./libtool --tag=CC --mode=link gcc   -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-host unbound-host.lo keyraw.lo sbuffer.lo wire2str.lo parse.lo parseutil.lo rrdef.lo str2wire.lo strlcat.lo strlcpy.lo explicit_bzero.lo   libunbound.la -lssl -levent  -lcrypto
-libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-checkconf .libs/unbound-checkconf.o .libs/worker_cb.o .libs/dns.o .libs/infra.o .libs/rrset.o .libs/dname.o .libs/msgencode.o .libs/as112.o .libs/msgparse.o .libs/msgreply.o .libs/packed_rrset.o .libs/iterator.o .libs/iter_delegpt.o .libs/iter_donotq.o .libs/iter_fwd.o .libs/iter_hints.o .libs/iter_priv.o .libs/iter_resptype.o .libs/iter_scrub.o .libs/iter_utils.o .libs/localzone.o .libs/mesh.o .libs/modstack.o .libs/view.o .libs/outbound_list.o .libs/alloc.o .libs/config_file.o .libs/configlexer.o .libs/configparser.o .libs/fptr_wlist.o .libs/edns.o .libs/locks.o .libs/log.o .libs/mini_event.o .libs/module.o .libs/net_help.o .libs/random.o .libs/rbtree.o .libs/regional.o .libs/rtt.o .libs/dnstree.o .libs/lookup3.o .libs/lruhash.o .libs/slabhash.o .libs/tcp_conn_limit.o .libs/timehist.o .libs/tube.o .libs/winsock_event.o .libs/autotrust.o .libs/val_anchor.o .libs/rpz.o .libs/validator.o .libs/val_kcache.o .libs/val_kentry.o .libs/val_neg.o .libs/val_nsec3.o .libs/val_nsec.o .libs/val_secalgo.o .libs/val_sigcrypt.o .libs/val_utils.o .libs/dns64.o .libs/authzone.o .libs/edns-subnet.o .libs/subnetmod.o .libs/addrtree.o .libs/subnet-whitelist.o .libs/ipsecmod.o .libs/ipsecmod-whitelist.o .libs/respip.o .libs/netevent.o .libs/listen_dnsport.o .libs/outside_network.o .libs/ub_event.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o .libs/reallocarray.o .libs/arc4random.o .libs/arc4random_uniform.o .libs/arc4_lock.o .libs/getentropy_linux.o  -lssl -levent -lcrypto -pthread
-libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound .libs/acl_list.o .libs/cachedump.o .libs/daemon.o .libs/shm_main.o .libs/remote.o .libs/stats.o .libs/unbound.o .libs/worker.o .libs/dns.o .libs/infra.o .libs/rrset.o .libs/dname.o .libs/msgencode.o .libs/as112.o .libs/msgparse.o .libs/msgreply.o .libs/packed_rrset.o .libs/iterator.o .libs/iter_delegpt.o .libs/iter_donotq.o .libs/iter_fwd.o .libs/iter_hints.o .libs/iter_priv.o .libs/iter_resptype.o .libs/iter_scrub.o .libs/iter_utils.o .libs/localzone.o .libs/mesh.o .libs/modstack.o .libs/view.o .libs/outbound_list.o .libs/alloc.o .libs/config_file.o .libs/configlexer.o .libs/configparser.o .libs/fptr_wlist.o .libs/edns.o .libs/locks.o .libs/log.o .libs/mini_event.o .libs/module.o .libs/net_help.o .libs/random.o .libs/rbtree.o .libs/regional.o .libs/rtt.o .libs/dnstree.o .libs/lookup3.o .libs/lruhash.o .libs/slabhash.o .libs/tcp_conn_limit.o .libs/timehist.o .libs/tube.o .libs/winsock_event.o .libs/autotrust.o .libs/val_anchor.o .libs/rpz.o .libs/validator.o .libs/val_kcache.o .libs/val_kentry.o .libs/val_neg.o .libs/val_nsec3.o .libs/val_nsec.o .libs/val_secalgo.o .libs/val_sigcrypt.o .libs/val_utils.o .libs/dns64.o .libs/authzone.o .libs/edns-subnet.o .libs/subnetmod.o .libs/addrtree.o .libs/subnet-whitelist.o .libs/ipsecmod.o .libs/ipsecmod-whitelist.o .libs/respip.o .libs/netevent.o .libs/listen_dnsport.o .libs/outside_network.o .libs/ub_event.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o .libs/reallocarray.o .libs/arc4random.o .libs/arc4random_uniform.o .libs/arc4_lock.o .libs/getentropy_linux.o  -lssl -levent -lcrypto -pthread
-libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o .libs/unbound-host .libs/unbound-host.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o  ./.libs/libunbound.so -lssl -levent -lcrypto -pthread
 ./libtool --tag=CC --mode=link gcc   -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-control unbound-control.lo  worker_cb.lo dns.lo infra.lo rrset.lo dname.lo msgencode.lo as112.lo msgparse.lo msgreply.lo packed_rrset.lo iterator.lo iter_delegpt.lo iter_donotq.lo iter_fwd.lo iter_hints.lo iter_priv.lo iter_resptype.lo iter_scrub.lo iter_utils.lo localzone.lo mesh.lo modstack.lo view.lo outbound_list.lo alloc.lo config_file.lo configlexer.lo configparser.lo fptr_wlist.lo edns.lo locks.lo log.lo mini_event.lo module.lo net_help.lo random.lo rbtree.lo regional.lo rtt.lo dnstree.lo lookup3.lo lruhash.lo slabhash.lo tcp_conn_limit.lo timehist.lo tube.lo winsock_event.lo autotrust.lo val_anchor.lo rpz.lo validator.lo val_kcache.lo val_kentry.lo val_neg.lo val_nsec3.lo val_nsec.lo val_secalgo.lo val_sigcrypt.lo val_utils.lo dns64.lo  authzone.lo edns-subnet.lo subnetmod.lo addrtree.lo subnet-whitelist.lo     ipsecmod.lo ipsecmod-whitelist.lo   respip.lo netevent.lo listen_dnsport.lo outside_network.lo ub_event.lo keyraw.lo sbuffer.lo wire2str.lo parse.lo parseutil.lo rrdef.lo str2wire.lo strlcat.lo strlcpy.lo explicit_bzero.lo reallocarray.lo arc4random.lo arc4random_uniform.lo arc4_lock.lo getentropy_linux.lo   -lssl -levent  -lcrypto
-./libtool --tag=CC --mode=link gcc   -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-anchor unbound-anchor.lo parseutil.lo strlcat.lo strlcpy.lo explicit_bzero.lo reallocarray.lo arc4random.lo arc4random_uniform.lo arc4_lock.lo getentropy_linux.lo   libunbound.la -lexpat -lssl -levent  -lcrypto
+libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-checkconf .libs/unbound-checkconf.o .libs/worker_cb.o .libs/dns.o .libs/infra.o .libs/rrset.o .libs/dname.o .libs/msgencode.o .libs/as112.o .libs/msgparse.o .libs/msgreply.o .libs/packed_rrset.o .libs/iterator.o .libs/iter_delegpt.o .libs/iter_donotq.o .libs/iter_fwd.o .libs/iter_hints.o .libs/iter_priv.o .libs/iter_resptype.o .libs/iter_scrub.o .libs/iter_utils.o .libs/localzone.o .libs/mesh.o .libs/modstack.o .libs/view.o .libs/outbound_list.o .libs/alloc.o .libs/config_file.o .libs/configlexer.o .libs/configparser.o .libs/fptr_wlist.o .libs/edns.o .libs/locks.o .libs/log.o .libs/mini_event.o .libs/module.o .libs/net_help.o .libs/random.o .libs/rbtree.o .libs/regional.o .libs/rtt.o .libs/dnstree.o .libs/lookup3.o .libs/lruhash.o .libs/slabhash.o .libs/tcp_conn_limit.o .libs/timehist.o .libs/tube.o .libs/winsock_event.o .libs/autotrust.o .libs/val_anchor.o .libs/rpz.o .libs/validator.o .libs/val_kcache.o .libs/val_kentry.o .libs/val_neg.o .libs/val_nsec3.o .libs/val_nsec.o .libs/val_secalgo.o .libs/val_sigcrypt.o .libs/val_utils.o .libs/dns64.o .libs/authzone.o .libs/edns-subnet.o .libs/subnetmod.o .libs/addrtree.o .libs/subnet-whitelist.o .libs/ipsecmod.o .libs/ipsecmod-whitelist.o .libs/respip.o .libs/netevent.o .libs/listen_dnsport.o .libs/outside_network.o .libs/ub_event.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o .libs/reallocarray.o .libs/arc4random.o .libs/arc4random_uniform.o .libs/arc4_lock.o .libs/getentropy_linux.o  -lssl -levent -lcrypto -pthread
 libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-control .libs/unbound-control.o .libs/worker_cb.o .libs/dns.o .libs/infra.o .libs/rrset.o .libs/dname.o .libs/msgencode.o .libs/as112.o .libs/msgparse.o .libs/msgreply.o .libs/packed_rrset.o .libs/iterator.o .libs/iter_delegpt.o .libs/iter_donotq.o .libs/iter_fwd.o .libs/iter_hints.o .libs/iter_priv.o .libs/iter_resptype.o .libs/iter_scrub.o .libs/iter_utils.o .libs/localzone.o .libs/mesh.o .libs/modstack.o .libs/view.o .libs/outbound_list.o .libs/alloc.o .libs/config_file.o .libs/configlexer.o .libs/configparser.o .libs/fptr_wlist.o .libs/edns.o .libs/locks.o .libs/log.o .libs/mini_event.o .libs/module.o .libs/net_help.o .libs/random.o .libs/rbtree.o .libs/regional.o .libs/rtt.o .libs/dnstree.o .libs/lookup3.o .libs/lruhash.o .libs/slabhash.o .libs/tcp_conn_limit.o .libs/timehist.o .libs/tube.o .libs/winsock_event.o .libs/autotrust.o .libs/val_anchor.o .libs/rpz.o .libs/validator.o .libs/val_kcache.o .libs/val_kentry.o .libs/val_neg.o .libs/val_nsec3.o .libs/val_nsec.o .libs/val_secalgo.o .libs/val_sigcrypt.o .libs/val_utils.o .libs/dns64.o .libs/authzone.o .libs/edns-subnet.o .libs/subnetmod.o .libs/addrtree.o .libs/subnet-whitelist.o .libs/ipsecmod.o .libs/ipsecmod-whitelist.o .libs/respip.o .libs/netevent.o .libs/listen_dnsport.o .libs/outside_network.o .libs/ub_event.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o .libs/reallocarray.o .libs/arc4random.o .libs/arc4random_uniform.o .libs/arc4_lock.o .libs/getentropy_linux.o  -lssl -levent -lcrypto -pthread
+libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o .libs/unbound-host .libs/unbound-host.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o  ./.libs/libunbound.so -lssl -levent -lcrypto -pthread
+libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound .libs/acl_list.o .libs/cachedump.o .libs/daemon.o .libs/shm_main.o .libs/remote.o .libs/stats.o .libs/unbound.o .libs/worker.o .libs/dns.o .libs/infra.o .libs/rrset.o .libs/dname.o .libs/msgencode.o .libs/as112.o .libs/msgparse.o .libs/msgreply.o .libs/packed_rrset.o .libs/iterator.o .libs/iter_delegpt.o .libs/iter_donotq.o .libs/iter_fwd.o .libs/iter_hints.o .libs/iter_priv.o .libs/iter_resptype.o .libs/iter_scrub.o .libs/iter_utils.o .libs/localzone.o .libs/mesh.o .libs/modstack.o .libs/view.o .libs/outbound_list.o .libs/alloc.o .libs/config_file.o .libs/configlexer.o .libs/configparser.o .libs/fptr_wlist.o .libs/edns.o .libs/locks.o .libs/log.o .libs/mini_event.o .libs/module.o .libs/net_help.o .libs/random.o .libs/rbtree.o .libs/regional.o .libs/rtt.o .libs/dnstree.o .libs/lookup3.o .libs/lruhash.o .libs/slabhash.o .libs/tcp_conn_limit.o .libs/timehist.o .libs/tube.o .libs/winsock_event.o .libs/autotrust.o .libs/val_anchor.o .libs/rpz.o .libs/validator.o .libs/val_kcache.o .libs/val_kentry.o .libs/val_neg.o .libs/val_nsec3.o .libs/val_nsec.o .libs/val_secalgo.o .libs/val_sigcrypt.o .libs/val_utils.o .libs/dns64.o .libs/authzone.o .libs/edns-subnet.o .libs/subnetmod.o .libs/addrtree.o .libs/subnet-whitelist.o .libs/ipsecmod.o .libs/ipsecmod-whitelist.o .libs/respip.o .libs/netevent.o .libs/listen_dnsport.o .libs/outside_network.o .libs/ub_event.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o .libs/reallocarray.o .libs/arc4random.o .libs/arc4random_uniform.o .libs/arc4_lock.o .libs/getentropy_linux.o  -lssl -levent -lcrypto -pthread
+./libtool --tag=CC --mode=link gcc   -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o unbound-anchor unbound-anchor.lo parseutil.lo strlcat.lo strlcpy.lo explicit_bzero.lo reallocarray.lo arc4random.lo arc4random_uniform.lo arc4_lock.lo getentropy_linux.lo   libunbound.la -lexpat -lssl -levent  -lcrypto
 libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o .libs/unbound-anchor .libs/unbound-anchor.o .libs/parseutil.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o .libs/reallocarray.o .libs/arc4random.o .libs/arc4random_uniform.o .libs/arc4_lock.o .libs/getentropy_linux.o  ./.libs/libunbound.so -lexpat -lssl -levent -lcrypto -pthread
 + /usr/bin/make -j4 streamtcp
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o streamtcp.lo -c testcode/streamtcp.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c testcode/streamtcp.c  -fPIC -DPIC -o .libs/streamtcp.o
 ./libtool --tag=CC --mode=link gcc   -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o streamtcp streamtcp.lo worker_cb.lo dns.lo infra.lo rrset.lo dname.lo msgencode.lo as112.lo msgparse.lo msgreply.lo packed_rrset.lo iterator.lo iter_delegpt.lo iter_donotq.lo iter_fwd.lo iter_hints.lo iter_priv.lo iter_resptype.lo iter_scrub.lo iter_utils.lo localzone.lo mesh.lo modstack.lo view.lo outbound_list.lo alloc.lo config_file.lo configlexer.lo configparser.lo fptr_wlist.lo edns.lo locks.lo log.lo mini_event.lo module.lo net_help.lo random.lo rbtree.lo regional.lo rtt.lo dnstree.lo lookup3.lo lruhash.lo slabhash.lo tcp_conn_limit.lo timehist.lo tube.lo winsock_event.lo autotrust.lo val_anchor.lo rpz.lo validator.lo val_kcache.lo val_kentry.lo val_neg.lo val_nsec3.lo val_nsec.lo val_secalgo.lo val_sigcrypt.lo val_utils.lo dns64.lo  authzone.lo edns-subnet.lo subnetmod.lo addrtree.lo subnet-whitelist.lo     ipsecmod.lo ipsecmod-whitelist.lo   respip.lo netevent.lo listen_dnsport.lo outside_network.lo ub_event.lo strlcat.lo strlcpy.lo explicit_bzero.lo reallocarray.lo arc4random.lo arc4random_uniform.lo arc4_lock.lo getentropy_linux.lo keyraw.lo sbuffer.lo wire2str.lo parse.lo parseutil.lo rrdef.lo str2wire.lo -lssl -levent  -lcrypto
 libtool: link: gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -Wl,-z -Wl,relro -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -o streamtcp .libs/streamtcp.o .libs/worker_cb.o .libs/dns.o .libs/infra.o .libs/rrset.o .libs/dname.o .libs/msgencode.o .libs/as112.o .libs/msgparse.o .libs/msgreply.o .libs/packed_rrset.o .libs/iterator.o .libs/iter_delegpt.o .libs/iter_donotq.o .libs/iter_fwd.o .libs/iter_hints.o .libs/iter_priv.o .libs/iter_resptype.o .libs/iter_scrub.o .libs/iter_utils.o .libs/localzone.o .libs/mesh.o .libs/modstack.o .libs/view.o .libs/outbound_list.o .libs/alloc.o .libs/config_file.o .libs/configlexer.o .libs/configparser.o .libs/fptr_wlist.o .libs/edns.o .libs/locks.o .libs/log.o .libs/mini_event.o .libs/module.o .libs/net_help.o .libs/random.o .libs/rbtree.o .libs/regional.o .libs/rtt.o .libs/dnstree.o .libs/lookup3.o .libs/lruhash.o .libs/slabhash.o .libs/tcp_conn_limit.o .libs/timehist.o .libs/tube.o .libs/winsock_event.o .libs/autotrust.o .libs/val_anchor.o .libs/rpz.o .libs/validator.o .libs/val_kcache.o .libs/val_kentry.o .libs/val_neg.o .libs/val_nsec3.o .libs/val_nsec.o .libs/val_secalgo.o .libs/val_sigcrypt.o .libs/val_utils.o .libs/dns64.o .libs/authzone.o .libs/edns-subnet.o .libs/subnetmod.o .libs/addrtree.o .libs/subnet-whitelist.o .libs/ipsecmod.o .libs/ipsecmod-whitelist.o .libs/respip.o .libs/netevent.o .libs/listen_dnsport.o .libs/outside_network.o .libs/ub_event.o .libs/strlcat.o .libs/strlcpy.o .libs/explicit_bzero.o .libs/reallocarray.o .libs/arc4random.o .libs/arc4random_uniform.o .libs/arc4_lock.o .libs/getentropy_linux.o .libs/keyraw.o .libs/sbuffer.o .libs/wire2str.o .libs/parse.o .libs/parseutil.o .libs/rrdef.o .libs/str2wire.o  -lssl -levent -lcrypto -pthread
-~/build/BUILD/unbound-1.16.2
 + popd
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.X5BJeQ
+~/build/BUILD/unbound-1.16.2
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.q4l0Wp
 + umask 022
 + cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64
-++ dirname /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64
++ '[' /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64
+++ dirname /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64
 + mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64
++ mkdir /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64
 + cd unbound-1.16.2
 + install -p -m 0644 /builddir/build/SOURCES/unbound-munin.README .
 + pushd unbound-1.16.2
 ~/build/BUILD/unbound-1.16.2/unbound-1.16.2 ~/build/BUILD/unbound-1.16.2
-+ /usr/bin/make DESTDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64 unbound-event-install install
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/include
-./libtool --mode=install cp ./libunbound/unbound-event.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/include/unbound-event.h
-libtool: install: cp ./libunbound/unbound-event.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/include/unbound-event.h
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/include
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man3
-/bin/sh ./install-sh -c -m 644 doc/libunbound.3 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man3
++ /usr/bin/make DESTDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64 unbound-event-install install
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/include
+./libtool --mode=install cp ./libunbound/unbound-event.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/include/unbound-event.h
+libtool: install: cp ./libunbound/unbound-event.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/include/unbound-event.h
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/include
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man3
+/bin/sh ./install-sh -c -m 644 doc/libunbound.3 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man3
 for mpage in ub_ctx ub_result ub_ctx_create ub_ctx_delete \
 	ub_ctx_set_option ub_ctx_get_option ub_ctx_config ub_ctx_set_fwd \
 	ub_ctx_resolvconf ub_ctx_hosts ub_ctx_add_ta ub_ctx_add_ta_file \
@@ -857,23 +878,23 @@ for mpage in ub_ctx ub_result ub_ctx_create ub_ctx_delete \
 	ub_resolve_free ub_strerror ub_ctx_print_local_zones ub_ctx_zone_add \
 	ub_ctx_zone_remove ub_ctx_data_add ub_ctx_data_remove; \
 do \
-	echo ".so man3/libunbound.3" > /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man3/$mpage.3 ; \
+	echo ".so man3/libunbound.3" > /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man3/$mpage.3 ; \
 done
-./libtool --mode=install cp unbound.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/include/unbound.h
-libtool: install: cp unbound.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/include/unbound.h
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64/pkgconfig
-/bin/sh ./install-sh -m 644 contrib/libunbound.pc /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64/pkgconfig
-./libtool --mode=install cp libunbound.la /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64
-libtool: install: cp .libs/libunbound.so.2.7.18 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64/libunbound.so.2.7.18
-libtool: install: (cd /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64 && { ln -s -f libunbound.so.2.7.18 libunbound.so.2 || { rm -f libunbound.so.2 && ln -s libunbound.so.2.7.18 libunbound.so.2; }; })
-libtool: install: (cd /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64 && { ln -s -f libunbound.so.2.7.18 libunbound.so || { rm -f libunbound.so && ln -s libunbound.so.2.7.18 libunbound.so; }; })
-libtool: install: cp .libs/libunbound.lai /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64/libunbound.la
+./libtool --mode=install cp unbound.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/include/unbound.h
+libtool: install: cp unbound.h /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/include/unbound.h
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64/pkgconfig
+/bin/sh ./install-sh -m 644 contrib/libunbound.pc /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64/pkgconfig
+./libtool --mode=install cp libunbound.la /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64
+libtool: install: cp .libs/libunbound.so.2.7.18 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64/libunbound.so.2.7.18
+libtool: install: (cd /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64 && { ln -s -f libunbound.so.2.7.18 libunbound.so.2 || { rm -f libunbound.so.2 && ln -s libunbound.so.2.7.18 libunbound.so.2; }; })
+libtool: install: (cd /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64 && { ln -s -f libunbound.so.2.7.18 libunbound.so || { rm -f libunbound.so && ln -s libunbound.so.2.7.18 libunbound.so; }; })
+libtool: install: cp .libs/libunbound.lai /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64/libunbound.la
 libtool: install: warning: remember to run `libtool --finish /usr/lib64'
-./libtool --mode=finish /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64
-libtool: finish: PATH="/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/sbin" ldconfig -n /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64
+./libtool --mode=finish /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64
+libtool: finish: PATH="/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/sbin" ldconfig -n /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64
 ----------------------------------------------------------------------
 Libraries have been installed in:
-   /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64
+   /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64
 If you ever happen to want to link against installed libraries
 in a given directory, LIBDIR, you must either use libtool, and
 specify the full pathname of the library, or use the `-LLIBDIR'
@@ -887,86 +908,86 @@ flag during linking and do at least one of the following:
 See any operating system documentation about shared libraries for
 more information, such as the ld(1) and ld.so(8) manual pages.
 ----------------------------------------------------------------------
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man8
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man5
-/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man1
-./libtool --mode=install cp -f unbound /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound
-libtool: install: cp -f unbound /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound
-./libtool --mode=install cp -f unbound-checkconf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-checkconf
-libtool: install: cp -f unbound-checkconf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-checkconf
-./libtool --mode=install cp -f unbound-control /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-control
-libtool: install: cp -f unbound-control /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-control
-./libtool --mode=install cp -f unbound-host /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-host
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man8
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man5
+/bin/sh ./install-sh -m 755 -d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man1
+./libtool --mode=install cp -f unbound /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound
+libtool: install: cp -f unbound /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound
+./libtool --mode=install cp -f unbound-checkconf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-checkconf
+libtool: install: cp -f unbound-checkconf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-checkconf
+./libtool --mode=install cp -f unbound-control /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-control
+libtool: install: cp -f unbound-control /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-control
+./libtool --mode=install cp -f unbound-host /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-host
 libtool: install: warning: `libunbound.la' has not been installed in `/usr/lib64'
-libtool: install: cp -f .libs/unbound-host /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-host
-./libtool --mode=install cp -f unbound-anchor /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-anchor
+libtool: install: cp -f .libs/unbound-host /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-host
+./libtool --mode=install cp -f unbound-anchor /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-anchor
 libtool: install: warning: `libunbound.la' has not been installed in `/usr/lib64'
-libtool: install: cp -f .libs/unbound-anchor /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-anchor
-/bin/sh ./install-sh -c -m 644 doc/unbound.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man8
-/bin/sh ./install-sh -c -m 644 doc/unbound-checkconf.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man8
-/bin/sh ./install-sh -c -m 644 doc/unbound-control.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man8
-/bin/sh ./install-sh -c -m 644 doc/unbound-control.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man8/unbound-control-setup.8
-/bin/sh ./install-sh -c -m 644 doc/unbound-anchor.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man8
-/bin/sh ./install-sh -c -m 644 doc/unbound.conf.5 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man5
-/bin/sh ./install-sh -c -m 644 doc/unbound-host.1 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/man/man1
-/bin/sh ./install-sh -c -m 755 unbound-control-setup /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-control-setup
-if test ! -e /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/unbound.conf; then /bin/sh ./install-sh -d `dirname /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/unbound.conf`; /bin/sh ./install-sh -c -m 644 doc/example.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/unbound.conf; fi
-+ install -m 0755 streamtcp /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-streamtcp
+libtool: install: cp -f .libs/unbound-anchor /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-anchor
+/bin/sh ./install-sh -c -m 644 doc/unbound.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man8
+/bin/sh ./install-sh -c -m 644 doc/unbound-checkconf.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man8
+/bin/sh ./install-sh -c -m 644 doc/unbound-control.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man8
+/bin/sh ./install-sh -c -m 644 doc/unbound-control.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man8/unbound-control-setup.8
+/bin/sh ./install-sh -c -m 644 doc/unbound-anchor.8 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man8
+/bin/sh ./install-sh -c -m 644 doc/unbound.conf.5 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man5
+/bin/sh ./install-sh -c -m 644 doc/unbound-host.1 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/man/man1
+/bin/sh ./install-sh -c -m 755 unbound-control-setup /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-control-setup
+if test ! -e /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/unbound.conf; then /bin/sh ./install-sh -d `dirname /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/unbound.conf`; /bin/sh ./install-sh -c -m 644 doc/example.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/unbound.conf; fi
++ install -m 0755 streamtcp /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-streamtcp
 + popd
++ install -d -m 0755 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib/systemd/system /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/sysconfig
 ~/build/BUILD/unbound-1.16.2
-+ install -d -m 0755 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib/systemd/system /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/sysconfig
-+ install -p -m 0644 /builddir/build/SOURCES/unbound.service /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib/systemd/system/unbound.service
-+ install -p -m 0644 /builddir/build/SOURCES/unbound-keygen.service /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib/systemd/system/unbound-keygen.service
-+ install -p -m 0644 /builddir/build/SOURCES/unbound-anchor.timer /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib/systemd/system/unbound-anchor.timer
-+ install -p -m 0644 /builddir/build/SOURCES/unbound-anchor.service /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib/systemd/system/unbound-anchor.service
-+ install -p -m 0755 /builddir/build/SOURCES/unbound.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound
-+ install -p -m 0644 /builddir/build/SOURCES/icannbundle.pem /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound
-+ install -p -m 0644 /builddir/build/SOURCES/unbound.sysconfig /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/sysconfig/unbound
++ install -p -m 0644 /builddir/build/SOURCES/unbound.service /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib/systemd/system/unbound.service
++ install -p -m 0644 /builddir/build/SOURCES/unbound-keygen.service /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib/systemd/system/unbound-keygen.service
++ install -p -m 0644 /builddir/build/SOURCES/unbound-anchor.timer /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib/systemd/system/unbound-anchor.timer
++ install -p -m 0644 /builddir/build/SOURCES/unbound-anchor.service /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib/systemd/system/unbound-anchor.service
++ install -p -m 0755 /builddir/build/SOURCES/unbound.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound
++ install -p -m 0644 /builddir/build/SOURCES/icannbundle.pem /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound
++ install -p -m 0644 /builddir/build/SOURCES/unbound.sysconfig /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/sysconfig/unbound
 + pushd unbound-1.16.2
 ~/build/BUILD/unbound-1.16.2/unbound-1.16.2 ~/build/BUILD/unbound-1.16.2
-+ install -m 0644 testcode/streamtcp.1 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64//usr/share/man/man1/unbound-streamtcp.1
-+ install -D -m 0644 contrib/libunbound.pc /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64//usr/lib64/pkgconfig/libunbound.pc
++ install -m 0644 testcode/streamtcp.1 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64//usr/share/man/man1/unbound-streamtcp.1
++ install -D -m 0644 contrib/libunbound.pc /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64//usr/lib64/pkgconfig/libunbound.pc
 + popd
 ~/build/BUILD/unbound-1.16.2
-+ install -d -m 0755 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib/tmpfiles.d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/var/lib/unbound
-+ install -m 0644 /builddir/build/SOURCES/tmpfiles-unbound.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib/tmpfiles.d/unbound.conf
-+ install -m 0644 /builddir/build/SOURCES/root.key /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/
-+ install -m 0644 /builddir/build/SOURCES/root.anchor /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/var/lib/unbound/root.key
-+ rm /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64/libunbound.la
-+ mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/var/run/unbound
-+ mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/keys.d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/conf.d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/local.d
-+ install -p /builddir/build/SOURCES/example.com.key /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/keys.d/
-+ install -p /builddir/build/SOURCES/example.com.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/conf.d/
-+ install -p /builddir/build/SOURCES/block-example.com.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/local.d/
-+ install -p -m 0644 /builddir/build/SOURCES/remote-control.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/etc/unbound/conf.d/
++ install -d -m 0755 /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib/tmpfiles.d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/var/lib/unbound
++ install -m 0644 /builddir/build/SOURCES/tmpfiles-unbound.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib/tmpfiles.d/unbound.conf
++ install -m 0644 /builddir/build/SOURCES/root.key /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/
++ install -m 0644 /builddir/build/SOURCES/root.anchor /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/var/lib/unbound/root.key
++ rm /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64/libunbound.la
++ mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/var/run/unbound
++ mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/keys.d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/conf.d /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/local.d
++ install -p /builddir/build/SOURCES/example.com.key /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/keys.d/
++ install -p /builddir/build/SOURCES/example.com.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/conf.d/
++ install -p /builddir/build/SOURCES/block-example.com.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/local.d/
++ install -p -m 0644 /builddir/build/SOURCES/remote-control.conf /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/etc/unbound/conf.d/
 + echo '.so man8/unbound-control.8'
 + /usr/lib/rpm/find-debuginfo.sh --strict-build-id -m --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 /builddir/build/BUILD/unbound-1.16.2
-extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/lib64/libunbound.so.2.7.18
-extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound
-extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-checkconf
-extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-control
-extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-host
-extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-anchor
-extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/sbin/unbound-streamtcp
+extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/lib64/libunbound.so.2.7.18
+extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound
+extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-checkconf
+extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-control
+extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-host
+extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-anchor
+extracting debug info from /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/sbin/unbound-streamtcp
 /usr/lib/rpm/sepdebugcrcfix: Updated 7 CRC32s, 0 CRC32s did match.
 symlinked /usr/lib/debug/usr/lib64/libunbound.so.2.7.18.debug to /usr/lib/debug/usr/lib64/libunbound.so.2.debug
 symlinked /usr/lib/debug/usr/lib64/libunbound.so.2.7.18.debug to /usr/lib/debug/usr/lib64/libunbound.so.debug
 cpio: unbound-1.16.2/unbound-1.16.2/<stdout>: Cannot stat: No such file or directory
-9103 blocks
+9122 blocks
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-compress
 + /usr/lib/rpm/redhat/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/brp-python-bytecompile /usr/bin/python 1
 + /usr/lib/rpm/redhat/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-java-repack-jars
-Executing(%check): /bin/sh -e /var/tmp/rpm-tmp.Hst8dc
+Executing(%check): /bin/sh -e /var/tmp/rpm-tmp.vn45xU
 + umask 022
 + cd /builddir/build/BUILD
+~/build/BUILD/unbound-1.16.2/unbound-1.16.2 ~/build/BUILD/unbound-1.16.2
 + cd unbound-1.16.2
 + pushd unbound-1.16.2
-~/build/BUILD/unbound-1.16.2/unbound-1.16.2 ~/build/BUILD/unbound-1.16.2
 + make check
 ./libtool --tag=CC --mode=compile gcc -I.  -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread  -o unitanchor.lo -c testcode/unitanchor.c
 libtool: compile:  gcc -I. -DSRCDIR=. -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -m64 -mtune=generic -pthread -c testcode/unitanchor.c  -fPIC -DPIC -o .libs/unitanchor.o
@@ -1079,8 +1100,9 @@ test services/outside_network.c:reuse_tcp_insert
 test services/outside_network.c:reuse_tcp_lru_touch
 test services/outside_network.c:reuse_tcp_remove_tree_list
 test services/outside_network.c:reuse_tcp_lru_snip
+test shared_ports functions
 test message parse functions
-[0] did 10000 in 58.002 msec for 172407.848005 encode/sec size 615
+[0] did 10000 in 44.488 msec for 224779.715878 encode/sec size 615
 test ecs functions
 test edns-subnet/addrtree.h:cmpbit
 test edns-subnet/addrtree.h:bits_common
@@ -1089,7 +1111,7 @@ test edns-subnet/addrtree.h:issub
 test edns-subnet/addrtree.h:Tree consistency check
 test edns-subnet/addrtree.h:Tree consistency with purge
 test edns-subnet/addrtree.h:Tree consistency with limit
-1309860 checks ok.
+1310493 checks ok.
 ./testbound -s
 selftest successful (33 checks).
 for x in ./testdata/*.rpl; do \
@@ -1491,52 +1513,52 @@ done
 ./testdata/version_bind_hide.rpl  OK
 ./testdata/views.rpl  OK
 test OK
-~/build/BUILD/unbound-1.16.2
 + popd
+~/build/BUILD/unbound-1.16.2
 + exit 0
-Processing files: unbound-1.16.2-5.14.el7.x86_64
-Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.jzkV8G
+Processing files: unbound-1.16.2-5.14.el7.2.x86_64
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.sxU0RP
 + umask 022
 + cd /builddir/build/BUILD
 + cd unbound-1.16.2
-+ DOCDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/doc/unbound-1.16.2
++ DOCDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/doc/unbound-1.16.2
 + export DOCDIR
-+ /usr/bin/mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/doc/unbound-1.16.2
-+ cp -pr doc/CREDITS /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/doc/unbound-1.16.2
-+ cp -pr doc/FEATURES /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/doc/unbound-1.16.2
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/doc/unbound-1.16.2
++ cp -pr doc/CREDITS /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/doc/unbound-1.16.2
++ cp -pr doc/FEATURES /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/doc/unbound-1.16.2
 + exit 0
-Provides: config(unbound) = 1.16.2-5.14.el7 unbound = 1.16.2-5.14.el7 unbound(x86-64) = 1.16.2-5.14.el7
+Provides: config(unbound) = 1.16.2-5.14.el7.2 unbound = 1.16.2-5.14.el7.2 unbound(x86-64) = 1.16.2-5.14.el7.2
 Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 Requires(post): /bin/sh systemd
 Requires(preun): /bin/sh systemd
 Requires(postun): /bin/sh systemd
 Requires: /bin/sh libc.so.6()(64bit) libc.so.6(GLIBC_2.10)(64bit) libc.so.6(GLIBC_2.14)(64bit) libc.so.6(GLIBC_2.15)(64bit) libc.so.6(GLIBC_2.16)(64bit) libc.so.6(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.3)(64bit) libc.so.6(GLIBC_2.3.4)(64bit) libc.so.6(GLIBC_2.4)(64bit) libcrypto.so.10()(64bit) libcrypto.so.10(OPENSSL_1.0.1_EC)(64bit) libcrypto.so.10(OPENSSL_1.0.2)(64bit) libcrypto.so.10(libcrypto.so.10)(64bit) libevent-2.0.so.5()(64bit) libpthread.so.0()(64bit) libpthread.so.0(GLIBC_2.2.5)(64bit) libssl.so.10()(64bit) libssl.so.10(libssl.so.10)(64bit) libunbound.so.2()(64bit) rtld(GNU_HASH)
-Processing files: unbound-devel-1.16.2-5.14.el7.x86_64
-Provides: pkgconfig(libunbound) = 1.16.2 unbound-devel = 1.16.2-5.14.el7 unbound-devel(x86-64) = 1.16.2-5.14.el7
+Processing files: unbound-devel-1.16.2-5.14.el7.2.x86_64
+Provides: pkgconfig(libunbound) = 1.16.2 unbound-devel = 1.16.2-5.14.el7.2 unbound-devel(x86-64) = 1.16.2-5.14.el7.2
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 Requires: /usr/bin/pkg-config libunbound.so.2()(64bit) pkgconfig(libevent)
-Processing files: unbound-libs-1.16.2-5.14.el7.x86_64
-Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.GqTI9b
+Processing files: unbound-libs-1.16.2-5.14.el7.2.x86_64
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.2HHQuL
 + umask 022
 + cd /builddir/build/BUILD
 + cd unbound-1.16.2
-+ DOCDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/doc/unbound-libs-1.16.2
++ DOCDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/doc/unbound-libs-1.16.2
 + export DOCDIR
-+ /usr/bin/mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/doc/unbound-libs-1.16.2
-+ cp -pr doc/README /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/doc/unbound-libs-1.16.2
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/doc/unbound-libs-1.16.2
++ cp -pr doc/README /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/doc/unbound-libs-1.16.2
 + exit 0
-Executing(%license): /bin/sh -e /var/tmp/rpm-tmp.F8UNaH
+Executing(%license): /bin/sh -e /var/tmp/rpm-tmp.u3DI8G
 + umask 022
 + cd /builddir/build/BUILD
 + cd unbound-1.16.2
-+ LICENSEDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/licenses/unbound-libs-1.16.2
++ LICENSEDIR=/builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/licenses/unbound-libs-1.16.2
 + export LICENSEDIR
-+ /usr/bin/mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/licenses/unbound-libs-1.16.2
-+ cp -pr doc/LICENSE /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64/usr/share/licenses/unbound-libs-1.16.2
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/licenses/unbound-libs-1.16.2
++ cp -pr doc/LICENSE /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64/usr/share/licenses/unbound-libs-1.16.2
 + exit 0
 warning: File listed twice: /var/lib/unbound/root.key
-Provides: config(unbound-libs) = 1.16.2-5.14.el7 libunbound.so.2()(64bit) unbound-libs = 1.16.2-5.14.el7 unbound-libs(x86-64) = 1.16.2-5.14.el7
+Provides: config(unbound-libs) = 1.16.2-5.14.el7.2 libunbound.so.2()(64bit) unbound-libs = 1.16.2-5.14.el7.2 unbound-libs(x86-64) = 1.16.2-5.14.el7.2
 Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 Requires(pre): /bin/sh shadow-utils
@@ -1544,12 +1566,12 @@ Requires(post): /bin/sh systemd
 Requires(preun): /bin/sh systemd
 Requires(postun): /bin/sh systemd
 Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.10)(64bit) libc.so.6(GLIBC_2.14)(64bit) libc.so.6(GLIBC_2.15)(64bit) libc.so.6(GLIBC_2.16)(64bit) libc.so.6(GLIBC_2.17)(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.3)(64bit) libc.so.6(GLIBC_2.3.4)(64bit) libc.so.6(GLIBC_2.4)(64bit) libcrypto.so.10()(64bit) libcrypto.so.10(OPENSSL_1.0.1_EC)(64bit) libcrypto.so.10(libcrypto.so.10)(64bit) libevent-2.0.so.5()(64bit) libexpat.so.1()(64bit) libpthread.so.0()(64bit) libpthread.so.0(GLIBC_2.2.5)(64bit) libssl.so.10()(64bit) libssl.so.10(libssl.so.10)(64bit) libunbound.so.2()(64bit) rtld(GNU_HASH)
-Processing files: unbound-debuginfo-1.16.2-5.14.el7.x86_64
-Provides: unbound-debuginfo = 1.16.2-5.14.el7 unbound-debuginfo(x86-64) = 1.16.2-5.14.el7
+Processing files: unbound-debuginfo-1.16.2-5.14.el7.2.x86_64
+Provides: unbound-debuginfo = 1.16.2-5.14.el7.2 unbound-debuginfo(x86-64) = 1.16.2-5.14.el7.2
 Requires(rpmlib): rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1 rpmlib(CompressedFileNames) <= 3.0.4-1
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.x86_64
-Wrote: /builddir/build/RPMS/unbound-1.16.2-5.14.el7.x86_64.rpm
-Wrote: /builddir/build/RPMS/unbound-devel-1.16.2-5.14.el7.x86_64.rpm
-Wrote: /builddir/build/RPMS/unbound-libs-1.16.2-5.14.el7.x86_64.rpm
-Wrote: /builddir/build/RPMS/unbound-debuginfo-1.16.2-5.14.el7.x86_64.rpm
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/unbound-1.16.2-5.14.el7.2.x86_64
+Wrote: /builddir/build/RPMS/unbound-1.16.2-5.14.el7.2.x86_64.rpm
+Wrote: /builddir/build/RPMS/unbound-devel-1.16.2-5.14.el7.2.x86_64.rpm
+Wrote: /builddir/build/RPMS/unbound-libs-1.16.2-5.14.el7.2.x86_64.rpm
+Wrote: /builddir/build/RPMS/unbound-debuginfo-1.16.2-5.14.el7.2.x86_64.rpm
 Child return code was: 0

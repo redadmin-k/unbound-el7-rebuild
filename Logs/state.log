@@ -1,22 +1,22 @@
-2026-09-19 14:10:53,569 - Mock Version: 6.8
-2026-09-19 14:10:53,572 - Start(bootstrap): chroot init
-2026-09-19 14:10:53,580 - Start(bootstrap): cleaning package manager metadata
-2026-09-19 14:10:53,585 - Finish(bootstrap): cleaning package manager metadata
-2026-09-19 14:10:54,753 - Finish(bootstrap): chroot init
-2026-09-19 14:10:54,754 - Start: chroot init
-2026-09-19 14:10:54,759 - Start: cleaning package manager metadata
-2026-09-19 14:10:54,775 - Finish: cleaning package manager metadata
-2026-09-19 14:10:55,324 - Start: installing minimal buildroot with yum
-2026-09-19 14:12:04,528 - Finish: installing minimal buildroot with yum
-2026-09-19 14:12:06,649 - Start: creating root cache
-2026-09-19 14:12:14,926 - Finish: creating root cache
-2026-09-19 14:12:14,927 - Finish: chroot init
-2026-09-19 14:12:15,216 - Start: build phase for unbound-1.16.2-5.14.el8.src.rpm
-2026-09-19 14:12:15,217 - Start: build setup for unbound-1.16.2-5.14.el8.src.rpm
-2026-09-19 14:12:27,213 - Finish: build setup for unbound-1.16.2-5.14.el8.src.rpm
-2026-09-19 14:12:27,213 - Start: rpmbuild unbound-1.16.2-5.14.el8.src.rpm
-2026-09-19 14:12:27,216 - Start: Outputting list of installed packages
-2026-09-19 14:12:27,509 - Finish: Outputting list of installed packages
-2026-09-19 14:13:18,352 - Finish: rpmbuild unbound-1.16.2-5.14.el8.src.rpm
-2026-09-19 14:13:18,365 - Finish: build phase for unbound-1.16.2-5.14.el8.src.rpm
-2026-09-19 14:13:18,367 - Finish: run
+2026-09-25 14:24:16,900 - Mock Version: 6.8
+2026-09-25 14:24:16,902 - Start(bootstrap): chroot init
+2026-09-25 14:24:16,908 - Start(bootstrap): cleaning package manager metadata
+2026-09-25 14:24:16,913 - Finish(bootstrap): cleaning package manager metadata
+2026-09-25 14:24:17,928 - Finish(bootstrap): chroot init
+2026-09-25 14:24:17,928 - Start: chroot init
+2026-09-25 14:24:17,931 - Start: cleaning package manager metadata
+2026-09-25 14:24:17,965 - Finish: cleaning package manager metadata
+2026-09-25 14:24:18,566 - Start: installing minimal buildroot with yum
+2026-09-25 14:25:09,369 - Finish: installing minimal buildroot with yum
+2026-09-25 14:25:10,533 - Start: creating root cache
+2026-09-25 14:25:21,689 - Finish: creating root cache
+2026-09-25 14:25:21,689 - Finish: chroot init
+2026-09-25 14:25:22,108 - Start: build phase for unbound-1.16.2-5.14.el8.2.src.rpm
+2026-09-25 14:25:22,109 - Start: build setup for unbound-1.16.2-5.14.el8.2.src.rpm
+2026-09-25 14:25:29,560 - Finish: build setup for unbound-1.16.2-5.14.el8.2.src.rpm
+2026-09-25 14:25:29,560 - Start: rpmbuild unbound-1.16.2-5.14.el8.2.src.rpm
+2026-09-25 14:25:29,561 - Start: Outputting list of installed packages
+2026-09-25 14:25:29,795 - Finish: Outputting list of installed packages
+2026-09-25 14:26:18,219 - Finish: rpmbuild unbound-1.16.2-5.14.el8.2.src.rpm
+2026-09-25 14:26:18,230 - Finish: build phase for unbound-1.16.2-5.14.el8.2.src.rpm
+2026-09-25 14:26:18,231 - Finish: run

@@ -37,7 +37,7 @@
 Summary: Validating, recursive, and caching DNS(SEC) resolver
 Name: unbound
 Version: 1.16.2
-Release: 5.14%{?extra_version:.%{extra_version}}%{?dist}
+Release: 5.14%{?extra_version:.%{extra_version}}%{?dist}.2
 License: BSD
 Url: https://www.unbound.net/
 Source: https://www.unbound.net/downloads/%{name}-%{version}%{?extra_version}.tar.gz
@@ -99,6 +99,12 @@ Patch14: unbound-1.25.1-CVE-2026-42534.patch
 Patch15: unbound-1.25.2-CVE-2026-44690.patch
 # https://github.com/NLnetLabs/unbound/commit/3d5e6c06923eff9eac2f5e31a69c43a15ca9d3c2
 Patch16: unbound-1.25.2-CVE-2026-44690-test.patch
+# https://github.com/NLnetLabs/unbound/commit/804cff4c152a121961b04605f75132370fc80df4
+Patch17: unbound-1.25.2-CVE-2026-50252.patch
+# https://github.com/NLnetLabs/unbound/commit/e597711824e3050fe789f1388766ec5e662684d2
+Patch18: unbound-1.26.0-CVE-2026-50252-fix1.patch
+# downstream only, backport fix
+Patch19: unbound-1.25.2-CVE-2026-44690-fix1.patch
 
 
 BuildRequires: gdb
@@ -215,6 +221,9 @@ pushd %{pkgname}
 %patch14 -p2 -b .CVE-2026-42534
 %patch15 -p1 -b .CVE-2026-44690
 %patch16 -p1 -b .CVE-2026-44690-test
+%patch17 -p1 -b .CVE-2026-50252
+%patch18 -p2 -b .CVE-2026-50252-fix1
+%patch19 -p2 -b .CVE-2026-44690-fix1
 
 # copy common doc files - after here, since it may be patched
 cp -pr doc pythonmod libunbound ../
@@ -481,6 +490,13 @@ popd
 %verify(not md5 size mtime) %{_sharedstatedir}/%{name}/root.key
 
 %changelog
+* Wed Aug 19 2026 Petr Menšík <pemensik@redhat.com> - 1.16.2-5.14.2
+- Backport additional fix from 1.26.0 (CVE-2026-50252)
+- Correct new warning in previous change (CVE-2026-44690)
+
+* Wed Aug 19 2026 RHEL Packaging Agent <redhat-ymir-agent@redhat.com> - 1.16.2-5.14.1
+- Fix CVE-2026-50252 (cache poisoning via source port prediction)
+
 * Wed Aug 05 2026 Fedor Vorobev <fvorobev@redhat.com> - 1.16.2-5.14
 - Add unit test for CVE-2026-44690 from upstream.
 
